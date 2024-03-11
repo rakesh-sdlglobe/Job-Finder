@@ -63,6 +63,5 @@ try {
     console.log(`server listening on port ${port}`);
   });
 } catch (error) {
-  console.log(error);
   process.exit(1);
 }
